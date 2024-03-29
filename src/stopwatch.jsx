@@ -41,7 +41,7 @@ export const Stopwatch = () => {
   return (
     <div>
         <h1>Stopwatch</h1>
-        <p>{format(timer)}</p>
+        <p>Time: {format(timer)}</p>
         <button onClick={toggleHandler}>{isActivated ? "Stop" : "Start"}</button>
         <button onClick={handleReset}>Reset</button>
     </div>
